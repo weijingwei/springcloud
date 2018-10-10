@@ -4,9 +4,9 @@
 	xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>config-server</artifactId>
+	<artifactId>config-client</artifactId>
 	<packaging>jar</packaging>
-	<name>config-server</name>
+	<name>config-client</name>
 	<parent>
 		<groupId>com.wjw</groupId>
 		<artifactId>springcloudconfigparent</artifactId>
@@ -19,13 +19,14 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-config-server</artifactId>
+			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
