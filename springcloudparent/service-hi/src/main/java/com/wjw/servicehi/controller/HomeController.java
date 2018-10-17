@@ -15,6 +15,9 @@ public class HomeController {
 	@RequestMapping("/hi")
 	@HystrixCommand(fallbackMethod = "hiError")
 	public String home(@RequestParam(value = "name", defaultValue = "weijingwei") String name) {
+		if (name.equals("error")) {
+			throw new RuntimeException();
+		}
 		return "hi " + name + " ,i am from port:" + port;
 	}
 

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: service-turbine
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: weijingwei
+Implementation-Vendor-Id: com.wjw
+Build-Jdk: 1.8.0_181
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/springcloudparent/service-turbine
+Created-By: Maven Integration for Eclipse
+

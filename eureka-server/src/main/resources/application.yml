@@ -14,4 +14,4 @@
 #  application:
 #    name: eurka-server
 
-spring.profiles.active: peer1
+spring.profiles.active: peer2
